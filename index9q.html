@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu Nombre · Desarrollador/a web</title>
+  <meta name="description" content="Portfolio de Tu Nombre, desarrollador/a web junior. Proyectos, habilidades y contacto.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
+
+  <!-- Bootstrap 5.3.8 + Bootstrap Icons (CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Tus estilos propios (marca personal) SIEMPRE después de Bootstrap -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       EJERCICIO 9 · MI PORTFOLIO PROFESIONAL
+       Lee ENUNCIADO.md. Rellena cada sección en su hueco.
+       ============================================================ -->
+
+  <!-- ===== NAVBAR =====
+       Tu nombre/logo + enlaces: Sobre mí (#sobre-mi) · Habilidades (#habilidades)
+       · Proyectos (#proyectos) · Formación (#formacion) · Contacto (#contacto) -->
+  </a>
+</section>
+
+  <main>
+
+    <!-- ===== PORTADA · SOBRE MÍ (id="sobre-mi") =====
+         Foto o avatar (img/foto.jpg), nombre, titular profesional, 2-3 líneas sobre ti,
+         botones "Ver proyectos" y "Descargar CV" (docs/cv.pdf con atributo download) -->
+<h1>Francisco José Barrionuevo García</h1>
+
+<h3>Desarrollador Web Junior · Estudiante DAW</h3>
+
+<p>
+Soy estudiante de Desarrollo de Aplicaciones Web y Multiplataforma.
+Me considero una persona responsable, trabajadora y con capacidad de aprendizaje.
+</p>
+</section>
+
+    <!-- ===== HABILIDADES (id="habilidades") =====
+         Grupos: Front-end · Back-end · Bases de datos · Herramientas · Idiomas
+         Idea: una card por grupo con badges o iconos -->
+<section id="habilidades" class="container py-5">
+  <h2 class="text-center mb-4">Habilidades</h2>
+
+  <span class="badge bg-primary">HTML</span>
+  <span class="badge bg-primary">CSS</span>
+  <span class="badge bg-primary">Bootstrap</span>
+  <span class="badge bg-success">JavaScript</span>
+  <span class="badge bg-warning text-dark">Python</span>
+  <span class="badge bg-danger">MySQL</span>
+  <span class="badge bg-secondary">GitHub</span>
+</section>
+
+    <!-- ===== PROYECTOS (id="proyectos") =====
+         Mínimo 3 cards: captura (img/), descripción, badges de tecnologías,
+         botones "Demo" y "Código" (GitHub). Idea JS: modal con el detalle -->
+<section id="proyectos" class="container py-5">
+  <h2 class="text-center mb-4">Proyectos</h2>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5>Tienda Online</h5>
+          <p>Proyecto realizado con HTML y CSS.</p>
+          <span class="badge bg-primary">HTML</span>
+          <span class="badge bg-info">CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5>Gestor de Tareas</h5>
+          <p>Aplicación desarrollada con JavaScript.</p>
+          <span class="badge bg-warning text-dark">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5>Portfolio Personal</h5>
+          <p>Portfolio responsive realizado con Bootstrap.</p>
+          <span class="badge bg-purple">Bootstrap</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- ===== FORMACIÓN Y EXPERIENCIA (id="formacion") =====
+         CFGS DAW, prácticas (FFEOE), cursos, certificaciones.
+         Idea: list-group o accordion -->
+<section id="formacion" class="container py-5">
+  <h2 class="mb-4">Formación</h2>
+
+  <ul class="list-group">
+    <li class="list-group-item">
+      CFGS Desarrollo de Aplicaciones Web (DAW)
+    </li>
+
+    <li class="list-group-item">
+      Formación en HTML, CSS, JavaScript y Bootstrap
+    </li>
+
+    <li class="list-group-item">
+      Prácticas en empresa (FFEOE)
+    </li>
+  </ul>
+</section>
+
+    <!-- ===== CONTACTO (id="contacto") =====
+         Formulario con validación (nombre, email, asunto, mensaje)
+         + enlaces a email, LinkedIn y GitHub -->
+<section id="contacto" class="container py-5">
+  <h2>Contacto</h2>
+
+  <form>
+    <input type="text" class="form-control mb-3" placeholder="Nombre">
+
+    <input type="email" class="form-control mb-3" placeholder="Correo electrónico">
+
+    <input type="text" class="form-control mb-3" placeholder="Asunto">
+
+    <textarea class="form-control mb-3" rows="4" placeholder="Mensaje"></textarea>
+
+    <button class="btn btn-primary">
+      Enviar
+    </button>
+  </form>
+</section>
+  </main>
+
+  <!-- ===== FOOTER =====
+       © año + tu nombre · iconos de redes (con aria-label) · "Última actualización: ..." -->
+<footer class="bg-dark text-white text-center p-4">
+  <p>
+    © 2026 Francisco José Barrionuevo García
+  </p>
+
+  <p>
+    Última actualización: Octubre 2026
+  </p>
+</footer>
+
+  <!-- Botón para volver al índice del proyecto de clase (bórralo al publicar tu portfolio) -->
+  <a href="../index.html" class="btn btn-sm btn-secondary position-fixed bottom-0 end-0 m-3 z-3">← Índice</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Tu JavaScript (validación del formulario, modo oscuro...) -->
+  <script src="js/main.js"></script>
+</body>
+</html>
