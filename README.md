@@ -1,28 +1,22 @@
-# Introducción a Bootstrap 5 · Ejercicios (2.º DAW)
+# Portfolio de Francis
 
-Esqueleto de trabajo para hacer los ejercicios **paso a paso en clase**.
-Cada archivo trae comentarios `PASO N` que indican dónde escribir el código.
+Portfolio que estoy haciendo para el ciclo de Desarrollo de Aplicaciones Web.
 
-## Cómo abrirlo
+## Enlaces
 
-1. Descomprime el zip y abre la carpeta `bootstrap-intro` en **Visual Studio Code**.
-2. Instala la extensión recomendada **Live Server**.
-3. Clic derecho sobre `index.html` → **Open with Live Server**.
+- GitHub Pages: https://fbg0010-stack.github.io/portfolio-daw/
+- Repositorio: https://github.com/fbg0010-stack/portfolio-daw
 
-> Bootstrap se carga por CDN: necesitas conexión a Internet.
+GitHub Pages todavía no está activado. Hay que activarlo en Settings → Pages y elegir la rama `main` y la carpeta `(root)`.
 
-## Carpetas
+## Qué he usado
 
-| Carpeta | Ejercicio |
-|---|---|
-| `ej01-plantilla` | 1 · Plantilla inicial (¡aquí añades tú Bootstrap!) |
-| `ej02-presentacion` | 2 · Tarjeta de presentación |
-| `ej03-grid` | 3 · Laboratorio de rejilla |
-| `ej04-08-codelab-academia` | 4 a 8 · Web de CodeLab Academia (un único archivo que vamos completando) |
-| `ej09-portfolio` | 9 · Reto final: **tu portfolio profesional** (lee `ENUNCIADO.md`) |
+- HTML y CSS
+- Bootstrap 5
+- Un poco de JavaScript
 
-## Consejos
+## Proyectos
 
-- Guarda a menudo (Ctrl + S): Live Server recarga solo.
-- Usa las DevTools (F12) y el modo responsive (Ctrl + Shift + M).
-- Documentación: https://getbootstrap.com/docs/5.3 · Ejemplos: https://getbootstrap.com/docs/5.3/examples
+He añadido algunos ejercicios de PHP, Docker y Bootstrap que he hecho en clase. Los dos proyectos de PHP se prueban en local; no funcionan directamente en GitHub Pages.
+
+El formulario todavía es solo visual y tengo que añadir mi CV más adelante.
