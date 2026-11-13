@@ -7,7 +7,7 @@ Portfolio que estoy haciendo para el ciclo de Desarrollo de Aplicaciones Web.
 - GitHub Pages: https://fbg0010-stack.github.io/portfolio-daw/
 - Repositorio: https://github.com/fbg0010-stack/portfolio-daw
 
-GitHub Pages todavía no está activado. Hay que activarlo en Settings → Pages y elegir la rama `main` y la carpeta `(root)`.
+La página se publica desde `main` y la carpeta `(root)` en GitHub Pages.
 
 ## Qué he usado
 
